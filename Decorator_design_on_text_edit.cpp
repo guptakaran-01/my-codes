@@ -56,10 +56,6 @@ class Bold : public Decorate{
 
 
 
-
-
-
-
 int main()
 {
     Itext* obj =new Bold (new Italic ( new text ("I am the text")));
